@@ -10,5 +10,5 @@ docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/
 
 # Alias for easy use
 ```bash
-alias docker-php71="docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app zf2timo\dev-php71 php @$"
+alias docker-php71="docker run -it --rm --name my-running-script -v "$PWD":/usr/src/app -w /usr/src/app zf2timo\dev-php71 php $@"
 ```
